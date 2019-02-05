@@ -353,7 +353,7 @@
             "value": "[equals(parameters('storageCategory'), 'Standard')]"
           },
           "vmSize": {
-            "value": "Standard_DS2"
+            "value": "Standard_A2"
           },
           "lbName": {
             "value": "[reference('sbn0').outputs.lbName.value]"
